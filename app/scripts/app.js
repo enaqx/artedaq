@@ -1,12 +1,15 @@
+/* global app:true */
+
 'use strict';
 
-angular.module('artedaqApp', [
+var app = angular.module('artedaqApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ngRoute'
-])
-  .config(function ($routeProvider) {
+]);
+
+app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
