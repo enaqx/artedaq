@@ -7,7 +7,9 @@ var app = angular.module('artedaqApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute'
-]);
+  'firebase'
+])
+.constant('FIREBASE_URL', 'https://torid-fire-561.firebaseio.com/');
 
 app.config(function ($routeProvider) {
     $routeProvider
