@@ -1,4 +1,4 @@
-artedaq
+Artedaq
 =======
 
-artedaq
+Simple tool for links collecting and ranking
